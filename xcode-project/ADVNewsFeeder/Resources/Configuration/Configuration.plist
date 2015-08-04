@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>rssFeedUrl</key>
+	<string>http://www.nylonmag.com/xml/rss/nylonmag_1.xml</string>
+	<key>rssFeedName</key>
+	<string>Nylon Mag</string>
+	<key>twitterUsername</key>
+	<string>emityme</string>
+	<key>facebookUsername</key>
+	<string>ELLENederland</string>
+	<key>facebookProfileType</key>
+	<string>Page</string>
+	<key>facebookAppId</key>
+	<string>497701066932900</string>
+</dict>
+</plist>
