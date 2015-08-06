@@ -3,16 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>rssFeedUrl</key>
-	<string>http://www.nylonmag.com/xml/rss/nylonmag_1.xml</string>
+	<string>http://www.mainstreetinvestor.com/feed/</string>
 	<key>rssFeedName</key>
-	<string>Nylon Mag</string>
+	<string>Traders Reserve</string>
 	<key>twitterUsername</key>
-	<string>emityme</string>
+	<string>tradersreserve</string>
 	<key>facebookUsername</key>
-	<string>ELLENederland</string>
+	<string>tradersreserve</string>
 	<key>facebookProfileType</key>
 	<string>Page</string>
 	<key>facebookAppId</key>
-	<string>497701066932900</string>
+	<string>396833373847814</string>
+	<key>URL Types</key>
+	<array>
+		<dict>
+			<key>URL Schemes</key>
+			<array>
+				<string>fb396833373847814</string>
+			</array>
+		</dict>
+	</array>
+	<key>facebookDisplayName</key>
+	<string>Traders Reserve</string>
 </dict>
 </plist>

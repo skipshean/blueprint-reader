@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="arx-4z-eNi">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch.iPad" variant="6xAndEarlier" propertyAccessControl="none" promptedForUpgradeToXcode5="NO" initialViewController="arx-4z-eNi">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+        <deployment identifier="iOS"/>
+        <development version="4600" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--Switch View Controller-->
@@ -169,7 +171,6 @@
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <navigationItem key="navigationItem" id="EPe-KX-wno"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -511,7 +512,7 @@
             </objects>
             <point key="canvasLocation" x="843" y="1041"/>
         </scene>
-        <!--Navigation Controller - TwitterNavigationController-->
+        <!--TwitterNavigationController-->
         <scene sceneID="ekw-P8-lWa">
             <objects>
                 <navigationController storyboardIdentifier="TwitterNavigationController" title="TwitterNavigationController" id="qAV-Gv-chW" sceneMemberID="viewController">
@@ -728,7 +729,7 @@
             </objects>
             <point key="canvasLocation" x="2607" y="1041"/>
         </scene>
-        <!--Navigation Controller - TwitterNavigationController-->
+        <!--TwitterNavigationController-->
         <scene sceneID="s4k-k9-xXV">
             <objects>
                 <navigationController storyboardIdentifier="FacebookNavigationController" title="TwitterNavigationController" id="sGo-Ss-SEz" sceneMemberID="viewController">
@@ -746,7 +747,7 @@
             </objects>
             <point key="canvasLocation" x="1741" y="1041"/>
         </scene>
-        <!--Settings View Controller - Settings-->
+        <!--Settings-->
         <scene sceneID="yw4-VK-oSL">
             <objects>
                 <tableViewController id="UMv-ZR-icQ" customClass="SettingsViewController" sceneMemberID="viewController">
@@ -756,10 +757,10 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DetailCell" textLabel="tBD-4f-tKP" detailTextLabel="vQx-8e-OhH" style="IBUITableViewCellStyleValue1" id="2n5-EY-9hd">
-                                <rect key="frame" x="0.0" y="54" width="540" height="46"/>
+                                <rect key="frame" x="0.0" y="68" width="538" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="31" y="1" width="458" height="43"/>
+                                    <rect key="frame" x="31" y="1" width="456" height="41"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tBD-4f-tKP">
@@ -809,10 +810,10 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="xyQ-hV-gC3" style="IBUITableViewCellStyleDefault" id="ciI-qG-g2g">
-                                <rect key="frame" x="0.0" y="54" width="540" height="46"/>
+                                <rect key="frame" x="0.0" y="68" width="538" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="31" y="1" width="478" height="43"/>
+                                    <rect key="frame" x="31" y="1" width="476" height="41"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xyQ-hV-gC3">
@@ -872,4 +873,5 @@
         <segue reference="QS0-to-8mv"/>
         <segue reference="SLn-tj-uhn"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>
