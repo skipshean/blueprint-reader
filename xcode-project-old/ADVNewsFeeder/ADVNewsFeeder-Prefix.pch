@@ -1,0 +1,28 @@
+//
+// Prefix header for all source files of the 'ADVNewsFeeder' target in the 'ADVNewsFeeder' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <Social/Social.h>
+    #import <Accounts/Accounts.h>
+#endif
+
+#define kTwitterProfileImageKey @"user_profile_image"
+#define kTwitterBannerImageKey @"user_banner_image"
+
+
+#define kFacebookProfileImageKey @"user_profile_image"
+#define kFacebookBannerImageKey @"user_banner_image"
+
+#define kFacebookProfileTypePage @"Page"
+#define kFacebookProfileTypePersonal @"Personal"
+
+

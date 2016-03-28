@@ -3,27 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>rssFeedUrl</key>
-	<string>http://www.mainstreetinvestor.com/feed/</string>
+	<string>http://www.millionaire-blueprint.com/feed/rss/?post_type=sermon</string>
 	<key>rssFeedName</key>
-	<string>Traders Reserve</string>
+	<string>Millionaire Blueprint</string>
 	<key>twitterUsername</key>
 	<string>tradersreserve</string>
 	<key>facebookUsername</key>
-	<string>tradersreserve</string>
+	<string>millionaireblueprint</string>
 	<key>facebookProfileType</key>
 	<string>Page</string>
 	<key>facebookAppId</key>
-	<string>396833373847814</string>
+	<string>659660140833523</string>
 	<key>URL Types</key>
 	<array>
 		<dict>
 			<key>URL Schemes</key>
 			<array>
-				<string>fb396833373847814</string>
+				<string>fb659660140833523</string>
 			</array>
 		</dict>
 	</array>
 	<key>facebookDisplayName</key>
-	<string>Traders Reserve</string>
+	<string>Millionaire Blueprint</string>
 </dict>
 </plist>

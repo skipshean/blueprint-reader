@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>rssFeedUrl</key>
+	<string>http://www.millionaire-blueprint.com/feed/?post_type=sermon</string>
+	<key>rssFeedName</key>
+	<string>Millionaire Blueprint</string>
+	<key>twitterUsername</key>
+	<string></string>
+	<key>facebookUsername</key>
+	<string>millionaireblueprint</string>
+	<key>facebookProfileType</key>
+	<string>Page</string>
+	<key>facebookAppId</key>
+	<string>659660140833523</string>
+	<key>URL Types</key>
+	<array>
+		<dict>
+			<key>URL Schemes</key>
+			<array>
+				<string>fb659660140833523</string>
+			</array>
+		</dict>
+	</array>
+	<key>facebookDisplayName</key>
+	<string>Millionaire Blueprint</string>
+</dict>
+</plist>
